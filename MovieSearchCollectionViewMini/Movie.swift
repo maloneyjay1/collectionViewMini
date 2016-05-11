@@ -27,10 +27,13 @@ class Movie {
         self.summary = summary
         self.rating = rating
     }
-    
-    
-    
 }
+
+
+
+
+
+
 
 
 

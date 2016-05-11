@@ -18,13 +18,6 @@ class MovieListViewController: UIViewController, UISearchResultsUpdating {
 
         setUpSearchController()
         
-//        MovieController.sharedInstance.searchForMovies("fargo") { (success) -> Void in
-//            if success == true {
-//                dispatch_async(dispatch_get_main_queue(), { () -> Void in
-//                    self.tableView.reloadData()
-//                })
-//            }
-//        }
     }
 
     func setUpSearchController() {
@@ -51,8 +44,10 @@ class MovieListViewController: UIViewController, UISearchResultsUpdating {
                
                 if let resultsController = searchController.searchResultsController as? ResultsViewController {
                   
+                    //defines viewable results as being those matched to search term
                     resultsController.filteredMovies = MovieController.sharedInstance.movieArray.filter({$0.title.lowercaseString.containsString(lowercaseSearchTerm)})
                     
+                    //reload collectionView to match current data
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
                         resultsController.collectionView.reloadData()
                     })
@@ -62,7 +57,7 @@ class MovieListViewController: UIViewController, UISearchResultsUpdating {
     }
 }
 
-extension MovieListViewController: UITableViewDataSource, UITableViewDelegate{
+extension MovieListViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
        

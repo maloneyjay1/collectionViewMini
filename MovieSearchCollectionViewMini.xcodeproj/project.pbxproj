@@ -13,13 +13,13 @@
 		8353C9331BEE697C00898E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8353C9311BEE697C00898E19 /* LaunchScreen.storyboard */; };
 		8353C93E1BEE697C00898E19 /* MovieSearchCollectionViewMiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C93D1BEE697C00898E19 /* MovieSearchCollectionViewMiniTests.swift */; };
 		8353C9491BEE697C00898E19 /* MovieSearchCollectionViewMiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9481BEE697C00898E19 /* MovieSearchCollectionViewMiniUITests.swift */; };
-		8353C9571BEE6CD100898E19 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9561BEE6CD100898E19 /* MovieListViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C9591BEE6E2300898E19 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9581BEE6E2300898E19 /* MovieListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C95B1BEE705700898E19 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95A1BEE705700898E19 /* NetworkController.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C95D1BEE73ED00898E19 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95C1BEE73ED00898E19 /* MovieController.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C95F1BEE7EAE00898E19 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95E1BEE7EAE00898E19 /* Movie.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C9611BEE855D00898E19 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9601BEE855D00898E19 /* ResultsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8353C9631BEE868E00898E19 /* ResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9621BEE868E00898E19 /* ResultsCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8353C9571BEE6CD100898E19 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9561BEE6CD100898E19 /* MovieListViewController.swift */; };
+		8353C9591BEE6E2300898E19 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9581BEE6E2300898E19 /* MovieListTableViewCell.swift */; };
+		8353C95B1BEE705700898E19 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95A1BEE705700898E19 /* NetworkController.swift */; };
+		8353C95D1BEE73ED00898E19 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95C1BEE73ED00898E19 /* MovieController.swift */; };
+		8353C95F1BEE7EAE00898E19 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C95E1BEE7EAE00898E19 /* Movie.swift */; };
+		8353C9611BEE855D00898E19 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9601BEE855D00898E19 /* ResultsViewController.swift */; };
+		8353C9631BEE868E00898E19 /* ResultsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353C9621BEE868E00898E19 /* ResultsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,10 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				8353C9281BEE697C00898E19 /* AppDelegate.swift */,
-				8353C9561BEE6CD100898E19 /* MovieListViewController.swift */,
 				8353C95A1BEE705700898E19 /* NetworkController.swift */,
 				8353C95C1BEE73ED00898E19 /* MovieController.swift */,
 				8353C95E1BEE7EAE00898E19 /* Movie.swift */,
+				8353C9561BEE6CD100898E19 /* MovieListViewController.swift */,
 				8353C92C1BEE697C00898E19 /* Main.storyboard */,
 				8353C9601BEE855D00898E19 /* ResultsViewController.swift */,
 				8353C9621BEE868E00898E19 /* ResultsCollectionViewCell.swift */,
@@ -507,6 +507,7 @@
 				8353C94F1BEE697C00898E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8353C9501BEE697C00898E19 /* Build configuration list for PBXNativeTarget "MovieSearchCollectionViewMiniTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				8353C9521BEE697C00898E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8353C9531BEE697C00898E19 /* Build configuration list for PBXNativeTarget "MovieSearchCollectionViewMiniUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				8353C9551BEE697C00898E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
